@@ -27,7 +27,7 @@ function Start() {
                 hours += 1
             }
             RenderHTML()
-        }, 1) 
+        }, 1000) 
         return
     }
     return console.log("clock ja está rodando")
@@ -90,6 +90,5 @@ function setAnimation(button) {
         default:
             console.log("algo deu errado")
             break
-    }
-    
+    } 
 }
