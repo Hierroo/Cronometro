@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+* {
+    margin: 0px;
+}
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+   width: 100%;
+   height: 100%;
+}
+main {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-clock {
+    margin-top: 12em;
+    border: 0.5px solid rgba(0, 0, 0, 0.558);
+    border-radius: 5px;
+    padding: 20px 30px;
+    overflow: hidden;
+    background-color: white;
+    
+    width: fit-content;
+    
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1.8em;
+    
+}
+.colon {
+    padding-bottom: 5px;
+}
+.div-clock-btns {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 0.5em;
+
+}
+.clock-btn {
+    color: white;
+    
+    border: 0.5px solid black;
+    border-radius: 5px;
+    padding: 5px 15px;
+    background-color: black;
+    cursor: pointer;
+    
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1.2em;
+}
+.start {
+    transition: 0.5s ease;
+    transition-property: opacity,background-color, color;
+}
+.pause {
+    opacity: 0.4;
+    transition: 0.5s ease;
+    transition-property: opacity, background-color, color;
+    background-color: white;
+    border: 0.5px solid black;
+    color: black;
+}
+.stop {
+    opacity: 0.4;
+    transition: 0.5s ease;
+    transition-property: opacity, background-color, color;
+    background-color: white; border: 0.5px solid black; 
+    color: black;
+}
+.created-by {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 0.8em;
+    margin-top: 1em;
+    opacity: 0.3;
+}
+.created-by a{
+    width: fit-content;
+    height: fit-content;
+    text-decoration: underline solid black 10%;
+    color: black;
+}
+.created-by a:visited {
+    color: black;
+}
+.created-by img{
+    width: 7px;
+}
