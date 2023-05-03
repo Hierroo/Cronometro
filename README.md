@@ -4,7 +4,7 @@
 
 # Cronômetro
 
-- deploy: https://hierroo.github.io/pomodoro/
+- deploy: https://hierroo.github.io/Cronometro/
 
 ## Sobre
  - Ainda em desenvolvimento, por enquanto é um simples cronômetro e o objetivo é transformar este projeto em um aplicativo de Relógio Pomodoro.
