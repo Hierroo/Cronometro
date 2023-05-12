@@ -1,0 +1,19 @@
+.div-form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.div-timers {
+    width: 10vw;
+    display: flex;
+    flex-direction: row;  
+}
+
+.timer-input {
+    width: 30px;
+}
+
+h1 {
+    font-size: 1em;
+}
